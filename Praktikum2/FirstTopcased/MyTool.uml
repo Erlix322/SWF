@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="MyTool">
+    <elementImport xmi:id="_5MeYULilEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </elementImport>
+    <elementImport xmi:id="_sXdYQLimEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UMLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigDecimal"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UMbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UMrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UM7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBooleanObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UNLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByte"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UNbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteArray"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UNrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD8UN7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EChar"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87QLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ECharacterObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87QbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87QrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDiagnosticChain"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87Q7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87RLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDoubleObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87RbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87RrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEnumerator"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87R7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMap"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87SLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMapEntry"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87SbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87SrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloatObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87S7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87TLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87TbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInvocationTargetException"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87TrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaClass"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87T7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EJavaObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87ULirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELong"/>
+    </elementImport>
+    <elementImport xmi:id="_cD87UbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ELongObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iULirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EMap"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iUbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EResource"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iUrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EResourceSet"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iU7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EShort"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iVLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EShortObject"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iVbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iVrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#ETreeIterator"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iV7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iWLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iWbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iWrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iW7irEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iXLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_cD9iXbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_cD-JYLirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_cD-JYbirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_cD-JYrirEeeCD8-uOnYBIg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aj2pMLilEeeCD8-uOnYBIg" name="Tool">
+      <ownedAttribute xmi:id="_DPslMLiwEeeCD8-uOnYBIg" name="version">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_B1wiULimEeeCD8-uOnYBIg" name="getVersion">
+        <ownedParameter xmi:id="_Fx4HsLioEeeCD8-uOnYBIg" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IazjsLimEeeCD8-uOnYBIg" name="setVersion">
+        <ownedParameter xmi:id="_UyggMLimEeeCD8-uOnYBIg" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="__fCtILimEeeCD8-uOnYBIg" name="start"/>
+      <ownedOperation xmi:id="_A7NJILinEeeCD8-uOnYBIg" name="initialize"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dybBgLimEeeCD8-uOnYBIg" name="TextViewer">
+      <ownedAttribute xmi:id="_jjC8ULimEeeCD8-uOnYBIg" name="Property1"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qmlJILipEeeCD8-uOnYBIg" name="printStdout" specification="_lXeHULimEeeCD8-uOnYBIg">
+        <ownedParameter xmi:id="_qmlJIbipEeeCD8-uOnYBIg" name="s">
+          <eAnnotations xmi:id="_qmlJIripEeeCD8-uOnYBIg" source="http://www.topcased.org/author">
+            <details xmi:id="_qmlJI7ipEeeCD8-uOnYBIg" key="author" value=""/>
+          </eAnnotations>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>C</language>
+        <body>System.out.println(s);</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_lXeHULimEeeCD8-uOnYBIg" name="printStdout" method="_qmlJILipEeeCD8-uOnYBIg">
+        <ownedParameter xmi:id="_uF4B4LimEeeCD8-uOnYBIg" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_1tJN4LipEeeCD8-uOnYBIg" name="A_&lt;tool>_&lt;textViewer>" memberEnd="_1tJN4bipEeeCD8-uOnYBIg _1tJN5LipEeeCD8-uOnYBIg" navigableOwnedEnd="_1tJN5LipEeeCD8-uOnYBIg">
+      <ownedEnd xmi:id="_1tJN4bipEeeCD8-uOnYBIg" name="tool" type="_aj2pMLilEeeCD8-uOnYBIg" association="_1tJN4LipEeeCD8-uOnYBIg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1tJN4ripEeeCD8-uOnYBIg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1tJN47ipEeeCD8-uOnYBIg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_1tJN5LipEeeCD8-uOnYBIg" name="textViewer" type="_dybBgLimEeeCD8-uOnYBIg" association="_1tJN4LipEeeCD8-uOnYBIg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1tJN5bipEeeCD8-uOnYBIg" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1tJN5ripEeeCD8-uOnYBIg" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_tf_7YLirEeeCD8-uOnYBIg" name=""/>
+  </packagedElement>
+</uml:Model>
